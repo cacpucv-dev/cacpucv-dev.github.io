@@ -9267,14 +9267,13 @@ li.fancybox-thumbs-loading {
 /*=== MEDIA QUERY ===*/
 body {
   line-height: 1.5;
-  font-family: "PT Serif", serif;
+  font-family: "PT Sans", sans-serif;
   -webkit-font-smoothing: antialiased; }
 
 p {
-  font-family: "PT Serif", serif;
+  font-family: "PT Sans", sans-serif;
   color: #e0e0e0;
-  font-size: 16px;
-  letter-spacing: 1px; }
+  font-size: 16px; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", sans-serif;
@@ -9464,7 +9463,7 @@ body {
     padding-right: 25px;
     padding-left: 25px;
     color: #e0e0e0;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
     letter-spacing: 2px; }
   #main-nav .navbar-nav .music-icon {
@@ -9491,7 +9490,7 @@ body {
     overflow: hidden; }
     .hero-slider-wrapper .item .item-image {
       position: relative;
-      width: 70%;
+      width: 62.5%;
       margin-left: auto; }
       .hero-slider-wrapper .item .item-image img {
         width: 100%; }
@@ -9508,8 +9507,8 @@ body {
         background: #38396B; }
     .hero-slider-wrapper .item .content {
       position: absolute;
-      top: 33%;
-      left: 13%; }
+      top: 15%;
+      left: 25%; }
       @media (max-width: 991px) {
         .hero-slider-wrapper .item .content {
           top: 20%; } }
@@ -9518,11 +9517,10 @@ body {
           top: 0; } }
       .hero-slider-wrapper .item .content h2 {
         font-weight: 400;
-        line-height: 110px;
-        font-size: 35px;
+        font-size: 30px;
         letter-spacing: 1px;
-        line-height: 60px;
-        margin-bottom: 20px; }
+        line-height: 50px;
+        margin-bottom: 0px; }
         .hero-slider-wrapper .item .content h2 span {
           clip-path: inset(0 0 0 0); }
         @media (max-width: 1200px) {
@@ -9539,7 +9537,7 @@ body {
         letter-spacing: 2px;
         font-weight: 400;
         font-size: 20px;
-        font-family: "PT Serif", serif; }
+        font-family: "PT Sans", sans-serif; }
         @media (max-width: 1200px) {
           .hero-slider-wrapper .item .content h3 {
             font-size: 20px;
@@ -9601,7 +9599,7 @@ body {
     position: relative;
     font-size: 18px;
     margin-top: 30px;
-    font-family: "PT Serif", serif; }
+    font-family: "PT Sans", sans-serif; }
     .scroll h6::before {
       position: absolute;
       content: '';
@@ -9621,6 +9619,50 @@ body {
     transform: translateX(0); }
   to {
     transform: translateX(-200%); } }
+
+.bg-icon-1 {
+  position: absolute;
+  width: 450px; }
+
+.mensaje-energia {
+  letter-spacing: 0px;
+  font-size: 12px; }
+
+.click-aqui {
+  cursor: pointer;
+  cursor: hand;
+  text-decoration: underline; }
+
+.modal-body p, .close p {
+  letter-spacing: 0px;
+  font-size: 14px;
+  color: #e0e0e0; }
+
+.modal-content {
+  background-color: #121212; }
+
+.modal-header {
+  border-bottom: none; }
+
+.close {
+  color: #e0e0e0;
+  text-shadow: none;
+  opacity: 0.9;
+  line-height: 0px; }
+
+.close:focus, .close:hover {
+  color: #fff; }
+
+.modal-dialog-centered {
+  display: flex;
+  align-items: center;
+  min-height: calc(100% - (10px * 2)); }
+
+.fa {
+  color: #e0e0e0; }
+
+.icons-social i {
+  margin-left: 10px; }
 
 .mission {
   position: relative;
@@ -9643,10 +9685,10 @@ body {
       .mission .bg {
         width: 80%; } }
   .mission .right-shape {
+    width: 450px;
     opacity: 25%;
     position: absolute;
-    right: 0;
-    top: -22%; }
+    right: 0; }
   .mission .section-title {
     position: absolute;
     z-index: 2;
@@ -9661,7 +9703,7 @@ body {
         top: 0;
         left: 0; } }
     .mission .section-title span {
-      font-size: 25px;
+      font-size: 20px;
       color: #e0e0e0;
       letter-spacing: 8px;
       font-weight: 800; }
@@ -9686,7 +9728,7 @@ body {
   .mission-content h2 {
     position: relative;
     margin-bottom: 42px;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 65px;
     letter-spacing: 1px; }
     .mission-content h2 span {
@@ -9710,7 +9752,6 @@ body {
   .mission-content p {
     font-size: 20px;
     line-height: 40px;
-    letter-spacing: 1px;
     max-width: 80%; }
     @media (max-width: 767px) {
       .mission-content p {
@@ -9801,7 +9842,7 @@ body {
   position: relative;
   z-index: 6; }
   .visions::before {
-    font-family: "PT Serif", serif;
+    font-family: "PT Sans", sans-serif;
     position: absolute;
     top: 18%;
     width: 100%;
@@ -10075,7 +10116,6 @@ body {
 .contact {
   position: relative;
   padding-top: 180px;
-  margin-bottom: 495px;
   z-index: 1; }
   @media (max-width: 991px) {
     .contact {
@@ -10427,3 +10467,11 @@ ul.social-list li a {
       text-decoration: none;
       letter-spacing: 2px;
       margin-bottom: 10px; }
+
+.dropdown-menu {
+  background-color: unset !important;
+  border: none; }
+
+.dropdown-item {
+  color: #fff;
+  font-size: 12px; }
