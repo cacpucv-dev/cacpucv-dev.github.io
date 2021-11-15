@@ -10259,6 +10259,14 @@ body {
     right: 6.5%;
     bottom: 1.5%; }
 
+.linkedin:hover {
+  color: #e0e0e0;
+  text-decoration: none;
+  opacity: 0.5; }
+
+.linkedin {
+  color: #e0e0e0; }
+
 .contact {
   position: relative;
   z-index: 1; }
